@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+body{
+    background-color: #303841;
+}
+header{
+    background-color: rgb(170, 42, 42);
+    padding: 2rem;
+}
+nav{
+    float: right;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+.links{
+    text-align: center;
+}
+nav a{
+    margin: 10px;
+}
+#welcome-section{
+    
+    min-height: 100vh;
+    text-align: center;
+}
+.text{
+  
+  
+  margin-top: 6rem; 
+  
+}
+.text h1{
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.text p{
+    font-size: 2rem;
+    color: #be3144;
+}
+#projects-section{
+    min-height: 100vh;
+    background-color: rgb(78, 78, 145);
+}
+.project-title h2{
+    text-align: center;
+    margin: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: underline;
+
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px; 
+    justify-content: center;
+}
+.project {
+  width: 90%;
+
+}
+.project img{
+    width: 400px;
+    height:450px ;
+    padding: 2rem;
+}
