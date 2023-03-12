@@ -12,6 +12,17 @@ body{
 header{
     background-color: rgb(170, 42, 42);
     padding: 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 nav{
     float: right;
@@ -46,7 +57,10 @@ nav a{
     font-size: 2rem;
     color: #be3144;
 }
-#projects-section{
+#profile-link{
+    justify-content: center;
+}
+#projects{
     min-height: 100vh;
     background-color: rgb(78, 78, 145);
 }
